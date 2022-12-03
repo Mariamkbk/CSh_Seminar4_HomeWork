@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая принимает на вход целое или дробное 
+// число и выдаёт количество цифр в числе.
+// 452 -> 3
+// 82 -> 2
+// 9,012 ->4
+
