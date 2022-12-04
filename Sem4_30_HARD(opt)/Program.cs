@@ -30,12 +30,6 @@ for (int i = 0; i < 8; i++)
     else Console.Write($" ");
 
 }
-// string NullOneCount(int[] RandomArray)
-// {
-    
-    
-//     return res;
-// }
 try
 {
     int[] array = new int[8];
