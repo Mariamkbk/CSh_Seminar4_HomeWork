@@ -14,7 +14,6 @@ void FillArray(int[] SomeArray)
 
 void PrintArray(int[] RandomArray)
 {
-    // string res = String.Empty;
     int CountOne = 0;
     int CountNull = 0;
     for (int i = 0; i < 8; i++) Console.Write($"{RandomArray[i]} ");
