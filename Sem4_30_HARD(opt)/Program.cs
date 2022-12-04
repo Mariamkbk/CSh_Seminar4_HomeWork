@@ -14,27 +14,29 @@ void FillArray(int[] SomeArray)
 
 void PrintArray(int[] RandomArray)
 {
-    for (int i = 0; i < 8; i++)
-        Console.Write($"{RandomArray[i]} ");
-}
-string NullOneCount(int[] AnothArray)
-{
-    string res = String.Empty;
+    // string res = String.Empty;
     int CountOne = 0;
     int CountNull = 0;
-    for (int i = 0; i < 8; i++)
+    for (int i = 0; i < 8; i++) Console.Write($"{RandomArray[i]} ");
+for (int i = 0; i < 8; i++)
     {
-        while (AnothArray[i] == 1) CountOne++;
+        while (RandomArray[i] == 1) CountOne++;
     }
     for (int i = 0; i < 8; i++)
     {
-        while (AnothArray[i] == 0) CountNull++;
+        while (RandomArray[i] == 0) CountNull++;
     }
-    if (CountOne > CountNull) res = res + "true";
-    else if (CountOne < CountNull) res = res + "false";
-    else res = res + "Equal";
-    return res;
+    if (CountOne > CountNull) Console.Write($"{RandomArray[i]} ");
+    else if (CountOne < CountNull) Console.Write($"{RandomArray[i]} ");
+    else Console.Write($" ");
+
 }
+// string NullOneCount(int[] RandomArray)
+// {
+    
+    
+//     return res;
+// }
 try
 {
     int[] array = new int[8];
